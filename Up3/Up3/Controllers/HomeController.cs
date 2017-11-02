@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Up3.Models;
 
 namespace Up3.Controllers
 {
@@ -35,6 +36,14 @@ namespace Up3.Controllers
         public ActionResult Series()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult ListShows()
+        {
+            ShowsModels allShows = new ShowsModels();
+            allShows.GetShows;
+            
 
             return View();
         }
