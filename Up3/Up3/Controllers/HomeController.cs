@@ -13,14 +13,26 @@ namespace Up3.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Login()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult News()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult Recommendations()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult Series()
         {
             ViewBag.Message = "Your contact page.";
 
